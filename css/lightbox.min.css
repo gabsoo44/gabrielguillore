@@ -1,0 +1,20 @@
+.lb-loader,
+.lightbox {
+  text-align: center;
+  position: absolute;
+  left: 0;
+}
+
+body.lb-disable-scrolling {
+  overflow: hidden;
+}
+
+.lightboxOverlay {
+  background-color: #000;
+  opacity: 0.8;
+}
+
+.lightbox .lb-image {
+  border-radius: 3px;
+  border: 4px solid #fff;
+}
